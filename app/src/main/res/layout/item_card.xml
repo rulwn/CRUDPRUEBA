@@ -19,11 +19,25 @@
 
         <TextView
             android:id="@+id/txtCrad"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="TextView"
             android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imgEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_editar" />
+
+        <ImageView
+            android:id="@+id/imgBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/trash" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

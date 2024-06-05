@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CRUDRAUL"
         tools:targetApi="31">
         <activity
+            android:name=".activity_detalleProducto"
+            android:exported="false" />
+        <activity
             android:name=".item_card"
             android:exported="false" />
         <activity
